@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Project 2 - Gapminder Clone</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom styling -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container d-flex justify-content-center">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img id="logo" src="img/logo.png" alt="Logo">
+                <h1 id="project-heading" class="ml-3">Gapminder Data Visualization</h1>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Bootstrap grid setup -->
+    <div class="container">
+        <div class="row">
+            <div id="chart-area"></div>
+            <div id="legend" class="col"></div>
+        </div>
+    </div>
+
+    <!-- Project description and technologies used -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h3>Project Overview</h3>
+                <ul>
+                    <li>This website is a data visualization project inspired by Hans Rosling's Gapminder.</li>
+                    <li>It visualizes global trends in life expectancy and income, highlighting key historical events and their impact on global health and wealth.</li>
+                </ul>
+
+                <h3>Technologies Used</h3>
+                <ul>
+                    <li><strong>HTML5</strong>: Provides the structure of the web page.</li>
+                    <li><strong>CSS3</strong>: Ensures styling and responsiveness with Bootstrap 4.4.1 and custom CSS.</li>
+                    <li><strong>JavaScript</strong>: Adds interactivity, utilizing D3.js for data-driven visualizations and jQuery for DOM manipulation.</li>
+                    <li><strong>External Libraries</strong>: Incorporates Popper.js and Bootstrap's JavaScript components for enhanced functionality.</li>
+                    <li><strong>JSON Data</strong>: Retrieves dynamic data for visualization.</li>
+                </ul>
+
+                <h3>Features</h3>
+                <ul>
+                    <li><strong>Responsive Design</strong>: Adapts to different screen sizes, ensuring a seamless user experience on both desktop and mobile devices.</li>
+                    <li><strong>Legend</strong>: Includes a color-coded legend to differentiate between continents, enhancing the clarity of data presentation.</li>
+                </ul>
+
+                <h3>Visualization Details</h3>
+                <ul>
+                    <li>Uses D3.js to create scalable vector graphics (SVG) for plotting data points.</li>
+                    <li>Implements logarithmic scaling for the x-axis (GDP per capita) and linear scaling for the y-axis (life expectancy).</li>
+                    <li>Animated transitions provide a dynamic and engaging way to visualize changes over time.</li>
+                </ul>
+
+                <h3>User Interface</h3>
+                <ul>
+                    <li>A clean and minimalistic design with a navigation bar that includes the project logo and title.</li>
+                    <li>Centralized project description and technologies used section to inform users about the website's purpose and implementation.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- External JS libraries -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

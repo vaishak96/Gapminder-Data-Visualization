@@ -1,0 +1,42 @@
+#chart-area {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#logo {
+	height:50px;
+}
+
+.navbar-brand {
+	height: 60px;
+	padding: 5px 0px;
+}
+
+#logo {
+    height: 50px;
+}
+
+#project-heading {
+    font-size: 24px;
+    text-align: center;
+}
+ul {
+    text-align: left;
+}
+.grey-box {
+    background-color: #f8f9fa; /* Light grey background */
+    border: 1px solid #dee2e6; /* Light grey border */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the box */
+}
+
+
+  
+.container.mt-5 {
+    background-color: #f8f9fa; /* Light grey background */
+    border: 1px solid #dee2e6; /* Light grey border */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 5px; /* Rounded corners */
+}
